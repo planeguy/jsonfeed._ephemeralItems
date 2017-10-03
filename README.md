@@ -3,6 +3,8 @@ a micro add-on for ephemeral items management.
 
 instead of infinitely expanding archives of old items, ephemeral items encourage living in the moment as older content disappears forever.
 
+this extension is inspired by my sad attempt at redemocratization of social media, [clusterfriend](https://github.com/planeguy/clusterfriend)
+
 # use
 _ephemeralItems is a root-level property that is referenced only when editing the feed. Systems that do not reference the feed when editing or adding items but generate a new feed from a seperate source will not take advantage of _ephemeralItems.
 
