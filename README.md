@@ -22,4 +22,4 @@ _ephemeralItems has 2 possible properties. both are optional, but at least 1 of 
 When updating, if the number of items > max_items, the oldest (by date_published) should be deleted
 
 ## ttl
-When updating, items whose date_published+ttl are deleted. max_age is expressed as a ISO 8601 duration.
+When updating, items whose date_published+ttl are deleted. ttl is expressed as a ISO 8601 duration.
