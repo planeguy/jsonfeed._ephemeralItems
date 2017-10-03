@@ -1,4 +1,5 @@
 # jsonfeed._ephemeralItems
+
 a micro add-on for ephemeral items management.
 
 instead of infinitely expanding archives of old items, ephemeral items encourage living in the moment as older content disappears forever.
@@ -21,7 +22,10 @@ _ephemeralItems is a root-level property that is referenced only when editing th
 _ephemeralItems has 2 possible properties. both are optional, but at least 1 of the two is required.
 
 ## max_items
-When updating, if the number of items > max_items, the oldest (by date_published) should be deleted
+When updating, if the number of items > max_items, the oldest (by date_published) should be deleted.
 
 ## ttl
 When updating, items whose date_published+ttl are deleted. ttl is expressed as a ISO 8601 duration.
+
+## both properties
+When both properties are present, it is recommended to trim items by ttl before checking for max_items.
