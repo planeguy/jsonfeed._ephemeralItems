@@ -9,6 +9,7 @@ _ephemeralItems is a root-level property that is referenced only when editing th
 ```
 {
     '_ephemeralItems':{
+        'about':'https://github.com/planeguy/jsonfeed._ephemeralItems',
         'max_items':25,
         'ttl':'P3W'
     }
